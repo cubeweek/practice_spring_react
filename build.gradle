@@ -2,7 +2,7 @@
 buildscript {
     // 전역변수 설정
     ext {
-        springBootVersion = '2.1.7.RELEASE' // spring-boot-gradle-plugin의 2.1.7.RELEASE를 의존성으로 받겠다(13line)
+        springBootVersion = '2.5.2' // spring-boot-gradle-plugin의 2.1.7.RELEASE를 의존성으로 받겠다(13line)
     }
 
     // 의존성 라이브러리를 어떤 저장소에서 받을 지 세팅
@@ -23,6 +23,7 @@ apply plugin: 'io.spring.dependency-management'
 
 group 'com.drbaseball'
 version '1.0-SNAPSHOT'
+sourceCompatibility = 1.15
 
 repositories {
     mavenCentral()
@@ -31,6 +32,14 @@ repositories {
 // 프로젝트 개발에 필요한 의존성 선언
 // 버전을 명시하지 않아야 맨 위의 springBootVersion을 따라감
 dependencies {
+    // junit
+    implementation 'junit:junit:4.13.1'
+
+    // lombok
+    compileOnly 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok:1.18.8'
+
+    // spring-boot-starter
     compile('org.springframework.boot:spring-boot-starter-web')
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }
