@@ -1,4 +1,8 @@
-com/drbaseball/sb/web/dto/HelloResponseDtoTest.java
- com.drbaseball.sb.web.dto.HelloResponseDtoTest
 com/drbaseball/sb/web/HelloControllerTest.java
  com.drbaseball.sb.web.HelloControllerTest
+com/drbaseball/sb/web/dto/HelloResponseDtoTest.java
+ com.drbaseball.sb.web.dto.HelloResponseDtoTest
+com/drbaseball/sb/domain/posts/PostsRepositoryTest.java
+ com.drbaseball.sb.domain.posts.PostsRepositoryTest
+com/drbaseball/sb/web/PostsApiControllerTest.java
+ com.drbaseball.sb.web.PostsApiControllerTest

@@ -1,6 +1,25 @@
+com/drbaseball/sb/domain/posts/PostsRepository.java
+ com.drbaseball.sb.domain.posts.PostsRepository
 com/drbaseball/sb/web/dto/HelloResponseDto.java
  com.drbaseball.sb.web.dto.HelloResponseDto
 com/drbaseball/sb/web/HelloController.java
  com.drbaseball.sb.web.HelloController
+com/drbaseball/sb/domain/BaseTimeEntity.java
+ com.drbaseball.sb.domain.BaseTimeEntity
 com/drbaseball/sb/Application.java
  com.drbaseball.sb.Application
+com/drbaseball/sb/web/dto/PostsUpdateRequestDto.java
+ com.drbaseball.sb.web.dto.PostsUpdateRequestDto
+ com.drbaseball.sb.web.dto.PostsUpdateRequestDto$PostsUpdateRequestDtoBuilder
+com/drbaseball/sb/web/PostsApiController.java
+ com.drbaseball.sb.web.PostsApiController
+com/drbaseball/sb/domain/posts/Posts.java
+ com.drbaseball.sb.domain.posts.Posts
+ com.drbaseball.sb.domain.posts.Posts$PostsBuilder
+com/drbaseball/sb/web/dto/PostsResponseDto.java
+ com.drbaseball.sb.web.dto.PostsResponseDto
+com/drbaseball/sb/web/dto/PostsSaveRequestDto.java
+ com.drbaseball.sb.web.dto.PostsSaveRequestDto
+ com.drbaseball.sb.web.dto.PostsSaveRequestDto$PostsSaveRequestDtoBuilder
+com/drbaseball/sb/service/posts/PostsService.java
+ com.drbaseball.sb.service.posts.PostsService
